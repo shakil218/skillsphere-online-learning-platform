@@ -1,2 +1,15 @@
 @import "tailwindcss";
-@import "daisyui";
+@plugin "daisyui";
+
+.animate-glow {
+  animation: glow 2s linear infinite;
+}
+
+@keyframes glow {
+  0% {
+    transform: translate(-100%, -100%) rotate(0deg);
+  }
+  100% {
+    transform: translate(100%, 100%) rotate(0deg);
+  }
+}

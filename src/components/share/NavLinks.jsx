@@ -24,7 +24,7 @@ const NavLinks = () => {
             className={`transition ${
               isActive(link.path)
                 ? "text-primary font-semibold border-b-2 border-primary"
-                : "hover:text-primary"
+                : "bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)] bg-clip-text text-transparent hover:text-primary"
             }`}
           >
             {link.name}
