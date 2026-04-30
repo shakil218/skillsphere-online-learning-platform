@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Image from "next/image";
 import mainImg from "@/assets/Virtual Workspace.png";
@@ -16,7 +16,7 @@ const LearnSection = () => {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="relative w-full h-64 md:h-full rounded-2xl overflow-hidden md:col-span-2 md:row-span-2">
             <Image src={mainImg} alt="learning" fill className="object-cover" />
           </div>

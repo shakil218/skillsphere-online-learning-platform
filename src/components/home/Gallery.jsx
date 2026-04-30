@@ -20,14 +20,14 @@ const Gallery = () => {
   return (
     <section className="overflow-hidden">
       <div className="relative max-w-7xl mx-auto rounded-lg overflow-hidden">
-         {/* 🔹 TOP RIGHT BADGE */}
+         {/* RIGHT BADGE */}
         <div className="absolute top-4 right-4 z-10">
           <span className="px-4 py-2 text-sm bg-white/80 backdrop-blur-md rounded-full shadow-md">
             Cancel anytime
           </span>
         </div>
 
-        {/* 🔹 BOTTOM LEFT BADGE */}
+        {/* BOTTOM LEFT BADGE */}
         <div className="absolute bottom-4 left-4 z-10">
           <span className="px-4 py-2 text-sm bg-white/80 backdrop-blur-md rounded-full shadow-md">
             Monthly membership

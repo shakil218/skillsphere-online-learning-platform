@@ -1,5 +1,6 @@
 import Gallery from "@/components/home/Gallery";
 import Hero from "@/components/home/Hero";
+import HowItWorks from "@/components/home/HowItWoeks";
 import LearnSection from "@/components/home/LearnSection";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Gallery />
       <LearnSection />
+      <HowItWorks />
       <div>hello something test</div>
     </div>
   );
