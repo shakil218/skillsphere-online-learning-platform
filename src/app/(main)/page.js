@@ -4,6 +4,7 @@ import HowItWorks from "@/components/home/HowItWorks";
 import LabWorks from "@/components/home/LabWorks";
 import LearnSection from "@/components/home/LearnSection";
 import LevelsSection from "@/components/home/LevelsSection";
+import PracticeSection from "@/components/home/PracticeSection";
 import WhatYouGetSection from "@/components/home/WhatYouGetSection";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <WhatYouGetSection />
       <LabWorks />
       <LevelsSection />
+      <PracticeSection />
       <div>hello something test</div>
     </div>
   );
