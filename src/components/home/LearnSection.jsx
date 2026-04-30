@@ -1,5 +1,3 @@
-// "use client";
-
 import Image from "next/image";
 import mainImg from "@/assets/Virtual Workspace.png";
 import bookImg from "@/assets/Learning & Legacy.png";

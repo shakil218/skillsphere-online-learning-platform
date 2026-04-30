@@ -1,7 +1,8 @@
 import Gallery from "@/components/home/Gallery";
 import Hero from "@/components/home/Hero";
-import HowItWorks from "@/components/home/HowItWoeks";
+import HowItWorks from "@/components/home/HowItWorks";
 import LearnSection from "@/components/home/LearnSection";
+import WhatYouGetSection from "@/components/home/WhatYouGetSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Gallery />
       <LearnSection />
       <HowItWorks />
+      <WhatYouGetSection />
       <div>hello something test</div>
     </div>
   );
