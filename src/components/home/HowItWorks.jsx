@@ -27,7 +27,7 @@ const HowItWorks = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full md:w-[75%] md:ml-auto bg-white rounded-2xl p-5 shadow-sm flex gap-4 items-start hover:shadow-xl">
+          <div className="w-full md:w-[70%] md:mx-auto bg-white rounded-2xl p-5 shadow-sm flex gap-4 items-start hover:shadow-xl">
             <div className="bg-orange-100 text-orange-500 p-2 rounded-lg">
               <Clock size={18} />
             </div>

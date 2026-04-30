@@ -1,8 +1,8 @@
-"use client";
-
+"use client"
 import Image from "next/image";
 import studyRelax from "@/assets/study-relax.png";
 import studyDesk from "@/assets/study-desk.png";
+import { motion } from "framer-motion";
 
 const LabWorks = () => {
   return (
@@ -31,9 +31,15 @@ const LabWorks = () => {
               </p>
             </div>
 
-            <button className="mt-6 bg-gray-800 text-white text-sm px-4 py-2 rounded-full w-fit">
-              Try SkillSphere
-            </button>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="relative btn bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)] text-white rounded-lg px-4 font-bold overflow-hidden shadow-xl"
+            >
+              <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow transition-all"></div>
+
+              <span className="relative z-10">Try SkillSphere</span>
+            </motion.button>
           </div>
 
           {/* Middle Card */}
