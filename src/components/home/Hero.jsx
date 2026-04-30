@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative flex items-center justify-center bg-base-100 my-24 md:my-32">
+    <section className="relative flex items-center justify-center bg-base-100 mt-24 md:mt-32">
       {/* Background glow */}
       <div className="absolute w-72 h-72 bg-primary/20 blur-3xl rounded-full top-10 left-1/2 -translate-x-1/2"></div>
 
@@ -37,9 +37,9 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="w-full sm:w-auto h-14 px-6 sm:px-10
-      flex items-center justify-center
-      bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)]
-      text-white rounded-lg font-bold relative overflow-hidden shadow-xl"
+                flex items-center justify-center
+                bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)]
+              text-white rounded-lg font-bold relative overflow-hidden shadow-xl cursor-pointer"
             >
               <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow"></div>
               <span className="relative z-10">Start Learning</span>
@@ -49,9 +49,9 @@ const Hero = () => {
           <Link href="/courses" className="w-full sm:w-auto">
             <button
               className="w-full sm:w-auto h-14 px-6 sm:px-10
-      flex items-center justify-center
-      border border-gray-400 text-gray-800
-      rounded-lg font-bold bg-transparent"
+                flex items-center justify-center
+                border border-gray-400 text-gray-800
+                rounded-lg font-bold bg-transparent cursor-pointer"
             >
               Explore Courses
             </button>
