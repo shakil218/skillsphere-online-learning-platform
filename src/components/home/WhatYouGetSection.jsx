@@ -5,7 +5,7 @@ import watchTutorial from "@/assets/watch-tutorial.png";
 
 const WhatYouGetSection = () => {
   return (
-    <section className="bg-gray-100 pt-16">
+    <section className="bg-gray-100 py-16">
       <div className="max-w-5xl mx-auto px-4 space-y-10">
         {/* Header */}
         <div className="text-center max-w-xl mx-auto">
