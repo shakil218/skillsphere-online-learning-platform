@@ -4,7 +4,7 @@ import practiceBgImg from "@/assets/practice-bg-img.png"
 
 const PracticeSection = () => {
   return (
-    <section className="px-4 lg:px-0 py-20">
+    <section className="px-4 lg:px-0">
       
         {/* Image Container */}
         <div className="relative rounded-2xl overflow-hidden">

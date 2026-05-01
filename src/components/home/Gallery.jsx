@@ -2,18 +2,18 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import mobileBrowsing from "@/assets/Mobile Browsing.png";
-import onlineLearning from "@/assets/Online Learning.png";
-import publicTransit from "@/assets/Public Transit.png";
-import remoteWork from "@/assets/Remote Work.png";
-import videoConferencing from "@/assets/Video Conferencing.png";
+import galleryImg1 from "@/assets/gallery-img-1.png";
+import galleryImg2 from "@/assets/gallery-img-2.png";
+import galleryImg3 from "@/assets/gallery-img-3.png";
+import galleryImg4 from "@/assets/gallery-img-4.png";
+import galleryImg5 from "@/assets/gallery-img-5.png";
 
 const images = [
-  remoteWork,
-  mobileBrowsing,
-  onlineLearning,
-  publicTransit,
-  videoConferencing,
+  galleryImg1,
+  galleryImg2,
+  galleryImg3,
+  galleryImg4,
+  galleryImg5,
 ];
 
 const Gallery = () => {

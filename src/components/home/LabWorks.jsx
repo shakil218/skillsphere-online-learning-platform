@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
-import studyRelax from "@/assets/study-relax.png";
-import studyDesk from "@/assets/study-desk.png";
+import labImage1 from "@/assets/lab-img1.png";
+import labImage2 from "@/assets/lab-img2.png";
 import { motion } from "framer-motion";
 
 const LabWorks = () => {
@@ -45,7 +45,7 @@ const LabWorks = () => {
           {/* Middle Card */}
           <div className="relative h-80 rounded-2xl overflow-hidden">
             <Image
-              src={studyRelax}
+              src={labImage1}
               alt="Join SkillSphere"
               fill
               className="object-cover"
@@ -66,7 +66,7 @@ const LabWorks = () => {
           {/* Right Card */}
           <div className="relative h-80 rounded-2xl overflow-hidden">
             <Image
-              src={studyDesk}
+              src={labImage2}
               alt="Learn and practice"
               fill
               className="object-cover"

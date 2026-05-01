@@ -1,7 +1,7 @@
 import Image from "next/image";
-import multimodalLearning from "@/assets/Multimodal-Learning.png";
-import virtualConnection from "@/assets/Virtual-Connection.png";
-import watchTutorial from "@/assets/watch-tutorial.png";
+import whatYouGetImg1 from "@/assets/what-you-get-img1.png";
+import whatYouGetImg2 from "@/assets/what-you-get-img2.png";
+import whatYouGetImg3 from "@/assets/what-you-get-img3.png";
 
 const WhatYouGetSection = () => {
   return (
@@ -23,7 +23,7 @@ const WhatYouGetSection = () => {
         <div className="grid md:grid-cols-2 gap-5">
           <div className="relative h-44 rounded-2xl overflow-hidden">
             <Image
-              src={multimodalLearning}
+              src={whatYouGetImg1}
               alt="Multimodal learning"
               fill
               className="object-cover"
@@ -32,7 +32,7 @@ const WhatYouGetSection = () => {
 
           <div className="relative h-44 rounded-2xl overflow-hidden">
             <Image
-              src={virtualConnection}
+              src={whatYouGetImg2}
               alt="Virtual learning"
               fill
               className="object-cover"
@@ -103,7 +103,7 @@ const WhatYouGetSection = () => {
         {/* Bottom Image */}
         <div className="relative h-44 rounded-2xl overflow-hidden">
           <Image
-            src={watchTutorial}
+            src={whatYouGetImg3}
             alt="Learning experience"
             fill
             className="object-cover"

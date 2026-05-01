@@ -1,6 +1,6 @@
 import Image from "next/image";
-import mainImg from "@/assets/Virtual Workspace.png";
-import bookImg from "@/assets/Learning & Legacy.png";
+import learnImg1 from "@/assets/learn-img1.png";
+import learnImg2 from "@/assets/learn-img2.png";
 
 const LearnSection = () => {
   return (
@@ -16,7 +16,7 @@ const LearnSection = () => {
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="relative w-full h-64 md:h-full rounded-2xl overflow-hidden md:col-span-2 md:row-span-2">
-            <Image src={mainImg} alt="learning" fill className="object-cover" />
+            <Image src={learnImg1} alt="learning" fill className="object-cover" />
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-sm md:col-span-2 md:row-span-1">
             <p className="text-sm text-gray-400 mb-3">The concept</p>
@@ -29,7 +29,7 @@ const LearnSection = () => {
             </p>
           </div>
           <div className="relative w-full h-48 md:h-full rounded-xl overflow-hidden md:col-span-1 md:row-span-1">
-            <Image src={bookImg} alt="book" fill className="object-cover" />
+            <Image src={learnImg2} alt="book" fill className="object-cover" />
           </div>
           <div className="bg-white rounded-2xl p-4 shadow-sm flex gap-4 items-center md:col-span-1 md:row-span-1">
             <div>
