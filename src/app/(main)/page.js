@@ -8,6 +8,7 @@ import LearnSection from "@/components/home/LearnSection";
 import LevelsSection from "@/components/home/LevelsSection";
 import Membership from "@/components/home/MemberShip";
 import PracticeSection from "@/components/home/PracticeSection";
+import TrustedCompanies from "@/components/home/TrustedCompanies";
 import WhatYouGetSection from "@/components/home/WhatYouGetSection";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <div className="px-5 md:px-0 space-y-16">
       <Hero />
       <Gallery />
+      <TrustedCompanies />
       <LearnSection />
       <HowItWorks />
       <WhatYouGetSection />
