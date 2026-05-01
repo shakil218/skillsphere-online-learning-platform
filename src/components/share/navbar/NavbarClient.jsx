@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const NavbarClient = () => {
   return (
-    <div className="fixed top-0 left-0 w-full z-50 bg-base-100 backdrop-blur-md text-white shadow-md px-4">
+    <div className="fixed top-0 left-0 w-full z-50 bg-base-100/75 backdrop-blur-md text-white shadow-md px-4">
       <div className="navbar max-w-7xl mx-auto">
         {/* Navbar Start */}
         <div className="navbar-start">
@@ -43,13 +43,12 @@ const NavbarClient = () => {
 
         {/* Navbar End */}
         <div className="navbar-end">
-          <Link
-            href="/login"
-          >
+          <Link href="/login">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="relative btn bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)] text-white rounded-lg px-4 font-bold overflow-hidden shadow-xl"
+              suppressHydrationWarning
             >
               <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow transition-all"></div>
 

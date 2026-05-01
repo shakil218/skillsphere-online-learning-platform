@@ -3,7 +3,7 @@ import React from 'react';
 
 const CoursePage = () => {
   return (
-    <div className='mt-24 md:mt-32'>
+    <div className='min-h-[calc(100vh-301.4px)]'>
       <Courses />
     </div>
   );

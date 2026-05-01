@@ -7,7 +7,7 @@ const MainLayout = ({children}) => {
   return (
     <div>
       <Navbar />
-      <main className='min-h-[calc(100vh-272px)]'>
+      <main className='pt-24'>
         {children}
       </main>
       <Footer />

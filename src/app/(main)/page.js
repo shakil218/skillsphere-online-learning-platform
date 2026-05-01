@@ -15,7 +15,7 @@ import WhatYouGetSection from "@/components/home/WhatYouGetSection";
 
 export default function Home() {
   return (
-    <div className="px-5 md:px-0 space-y-16">
+    <div className="min-h-[calc(100vh-301.4px)] px-5 md:px-0 space-y-16">
       <Hero />
       <Gallery />
       <TrustedCompanies />

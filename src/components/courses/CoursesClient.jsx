@@ -38,14 +38,14 @@ const CoursesClient = ({ courses = [] }) => {
     : allCourses;
 
   return (
-    <section className="min-h-screen w-full max-w-7xl mx-auto px-4 md:px-6 lg:px-0 mt-20 mb-20">
+    <section className="w-full max-w-7xl mx-auto pb-10 px-4 md:px-6 lg:px-0 space-y-10">
       {/* Title */}
-      <div className="text-center mb-12">
+      <div className="text-center space-y-4">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
           {isHome ? "Top Rated Courses" : "All Courses"}
         </h2>
 
-        <p className="text-gray-500 dark:text-gray-400 mt-2">
+        <p className="text-gray-500 dark:text-gray-400">
           {isHome
             ? "Explore the most popular courses on SkillSphere"
             : "Browse all courses and start learning today"}
@@ -53,12 +53,13 @@ const CoursesClient = ({ courses = [] }) => {
 
         {/* Search Input */}
         {isCoursesPage && (
-          <div className="w-full max-w-xl mx-auto mt-4">
+          <div className="w-full max-w-lg mx-auto">
             <input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search your course here..."
               className="border border-gray-300 px-4 py-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-purple-400"
+              suppressHydrationWarning
             />
           </div>
         )}
