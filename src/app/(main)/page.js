@@ -1,3 +1,5 @@
+import CTA from "@/components/home/CTA";
+import FAQ from "@/components/home/FAQ";
 import Gallery from "@/components/home/Gallery";
 import Hero from "@/components/home/Hero";
 import HowItWorks from "@/components/home/HowItWorks";
@@ -20,7 +22,8 @@ export default function Home() {
       <LevelsSection />
       <PracticeSection />
       <Membership />
-      <div>hello something test</div>
+      <FAQ />
+      <CTA />
     </div>
   );
 }
