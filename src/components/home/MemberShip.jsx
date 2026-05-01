@@ -35,7 +35,7 @@ const Membership=()=> {
     <section className="bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-extrabold text-gray-900 mb-4">Membership</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Membership</h2>
           <p className="text-lg text-gray-600">Simple pricing. Cancel anytime. Access while your membership is active</p>
         </div>
 
@@ -66,16 +66,6 @@ const Membership=()=> {
               )}
               
               <p className="text-gray-600 mb-8 grow">{plan.description}</p>
-
-              {/* <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="relative btn bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)] text-white rounded-lg px-4 font-bold overflow-hidden shadow-xl"
-            >
-              <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow transition-all"></div>
-
-              <span className="relative z-10">Login</span>
-            </motion.button> */}
               
               <motion.button whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }} className={`relative btn w-full py-4 rounded-lg  text-white font-semibold overflow-hidden transition ${

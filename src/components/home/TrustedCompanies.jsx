@@ -16,7 +16,7 @@ export default function TrustedCompanies() {
   return (
     <div className="overflow-hidden">
       <div className="max-w-2xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-gray-800">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-12">
           Trusted by over 16,000 companies and millions of learners around the
           world
         </h2>
@@ -36,7 +36,10 @@ export default function TrustedCompanies() {
           }}
         >
           {[...logos, ...logos].map((logo, i) => (
-            <div key={i} className="flex items-center justify-center w-32 h-16">
+            <div
+              key={i}
+              className="flex items-center gap-3 justify-center text-lg font-bold h-16 hover:text-white"
+            >
               <img
                 src={logo.url}
                 alt={logo.name}
@@ -47,6 +50,7 @@ export default function TrustedCompanies() {
                   transition duration-300
                 "
               />
+              {logo.name}
             </div>
           ))}
         </motion.div>

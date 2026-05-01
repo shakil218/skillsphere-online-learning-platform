@@ -8,7 +8,7 @@ const LearnSection = () => {
       <div className="max-w-5xl mx-auto px-4">
         {/* Title */}
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-gray-800">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-12">
             SkillSphere – Build Real Skills, One Course at a Time
           </h2>
         </div>

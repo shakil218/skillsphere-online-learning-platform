@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import labImage1 from "@/assets/lab-img1.png";
 import labImage2 from "@/assets/lab-img2.png";
@@ -9,11 +9,9 @@ const LabWorks = () => {
     <section className="bg-base-100">
       <div className="max-w-6xl mx-auto px-4 space-y-10">
         {/* Header */}
-        <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-semibold text-gray-800">
-            How SkillSphere Lab works
-          </h2>
-        </div>
+        <h2 className="text-2xl md:text-3xl text-center font-bold text-gray-900">
+          How SkillSphere Lab works
+        </h2>
 
         {/* Cards */}
         <div className="grid md:grid-cols-3 gap-6">

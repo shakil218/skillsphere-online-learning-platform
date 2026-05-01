@@ -1,11 +1,12 @@
+import Courses from '@/components/courses/Courses';
 import React from 'react';
 
-const page = () => {
+const CoursePage = () => {
   return (
-    <div>
-      Course will publish soon.
+    <div className='mt-24 md:mt-32'>
+      <Courses />
     </div>
   );
 };
 
-export default page;
+export default CoursePage;

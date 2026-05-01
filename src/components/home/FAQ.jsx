@@ -35,7 +35,7 @@ const FAQ = () => {
   return (
     <section className="bg-gray-50">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-16">
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-16">
           FAQ
         </h2>
 

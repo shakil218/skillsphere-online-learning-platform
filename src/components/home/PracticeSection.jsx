@@ -28,7 +28,7 @@ const PracticeSection = () => {
               </div>
 
               {/* Text */}
-              <h3 className="text-sm font-semibold text-gray-800">
+              <h3 className="text-sm font-semibold text-gray-900">
                 Built for practice
               </h3>
 

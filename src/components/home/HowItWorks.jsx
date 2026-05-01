@@ -5,7 +5,7 @@ const HowItWorks = () => {
     <section className="bg-gray-50">
       <div className="max-w-5xl mx-auto px-4">
         {/* Title */}
-        <h2 className="text-center text-2xl md:text-3xl font-semibold text-gray-800 mb-12">
+        <h2 className="text-center text-2xl md:text-3xl font-bold text-gray-900 mb-12">
           How this works in practice
         </h2>
 

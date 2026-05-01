@@ -1,3 +1,4 @@
+import Courses from "@/components/courses/Courses";
 import CTA from "@/components/home/CTA";
 import FAQ from "@/components/home/FAQ";
 import Gallery from "@/components/home/Gallery";
@@ -8,6 +9,7 @@ import LearnSection from "@/components/home/LearnSection";
 import LevelsSection from "@/components/home/LevelsSection";
 import Membership from "@/components/home/MemberShip";
 import PracticeSection from "@/components/home/PracticeSection";
+import TopInstructors from "@/components/home/TopInstructors";
 import TrustedCompanies from "@/components/home/TrustedCompanies";
 import WhatYouGetSection from "@/components/home/WhatYouGetSection";
 
@@ -17,6 +19,8 @@ export default function Home() {
       <Hero />
       <Gallery />
       <TrustedCompanies />
+      <Courses />
+      <TopInstructors />
       <LearnSection />
       <HowItWorks />
       <WhatYouGetSection />

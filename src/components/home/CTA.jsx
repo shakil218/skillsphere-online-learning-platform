@@ -13,7 +13,7 @@ const CTA = () => {
 
       {/* card */}
       <div className="relative z-10 bg-white/50 backdrop-blur-sm p-12 rounded-3xl shadow-xl max-w-2xl text-center mx-4">
-        <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
           Expand your world with SkillSphere
         </h2>
         <p className="text-lg text-gray-600 mb-8 leading-relaxed">

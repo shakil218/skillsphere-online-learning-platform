@@ -3,12 +3,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const scrollToContact = () => {
-    const section = document.getElementById("contact");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <section className="relative flex items-center justify-center bg-base-100 mt-24 md:mt-32">

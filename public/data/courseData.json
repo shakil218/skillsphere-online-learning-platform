@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript Mastery",
+    "instructor": "Sarah Lee",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Deep dive into modern JavaScript concepts and patterns.",
+    "image": "https://plus.unsplash.com/premium_photo-1678565879444-f87c8bd9f241?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Emily Carter",
+    "duration": "12 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Learn design principles and create stunning interfaces.",
+    "image": "https://images.unsplash.com/photo-1586717799252-bd134ad00e26?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Strategy",
+    "instructor": "Michael Brown",
+    "duration": "10 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Master SEO, social media, and online marketing.",
+    "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "title": "React JS for Beginners",
+    "instructor": "David Kim",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Build modern web apps using React.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "Python for Data Science",
+    "instructor": "Sophia Miller",
+    "duration": "22 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Analyze data and build models using Python.",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    "category": "Data Science"
+  },
+  {
+    "id": 7,
+    "title": "Graphic Design Masterclass",
+    "instructor": "Daniel Scott",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Create professional graphics and branding designs.",
+    "image": "https://images.unsplash.com/photo-1611241893603-3c359704e0ee?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Design"
+  },
+  {
+    "id": 8,
+    "title": "Business Analytics Essentials",
+    "instructor": "Olivia Wilson",
+    "duration": "16 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Make data-driven business decisions.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "category": "Business"
+  },
+  {
+    "id": 9,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "James Anderson",
+    "duration": "19 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build cross-platform mobile apps with Flutter.",
+    "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Development"
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning A-Z",
+    "instructor": "Andrew Ng",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Understand machine learning algorithms and applications.",
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+    "category": "Data Science"
+  },
+  {
+    "id": 11,
+    "title": "Photography Basics",
+    "instructor": "Chris Evans",
+    "duration": "8 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Capture stunning photos with any camera.",
+    "image": "https://plus.unsplash.com/premium_photo-1673448391005-d65e815bd026?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Creative"
+  },
+  {
+    "id": 12,
+    "title": "Personal Productivity Mastery",
+    "instructor": "Tony Robbins",
+    "duration": "9 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Boost productivity and manage your time effectively.",
+    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+    "category": "Personal Development"
+  }
+]

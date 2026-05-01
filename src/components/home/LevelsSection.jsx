@@ -7,7 +7,7 @@ const LevelsSection = () => {
   return (
     <section className="px-4 py-16 bg-[#f5f5f5]">
       {/* Heading */}
-      <h2 className="text-center text-4xl md:text-5xl font-bold text-gray-800 mb-20">
+      <h2 className="text-center text-2xl md:text-3xl font-bold text-gray-900 mb-20">
         Built for all levels
       </h2>
 
