@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const CourseCard = ({ course }) => {
+  
   return (
     <Link
     href={`/course/${course.id}`}

@@ -1,5 +1,4 @@
 import Courses from '@/components/courses/Courses';
-import React from 'react';
 
 const CoursePage = () => {
   return (

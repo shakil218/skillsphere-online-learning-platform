@@ -1,13 +1,15 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CourseCard from "./CourseCard";
 import EmptyCard from "./EmptyCard";
+import Loading from "../share/Loading";
 
 const CoursesClient = ({ courses = [] }) => {
   const pathname = usePathname();
   const [search, setSearch] = useState("");
+  const [loading, setLoading] = useState(true);
 
   const isHome = pathname === "/";
   const isCoursesPage = pathname.startsWith("/courses");
@@ -22,21 +24,30 @@ const CoursesClient = ({ courses = [] }) => {
 
   // Safe search filter
   const filteredCourses =
-  isCoursesPage && search.trim() !== ""
-    ? allCourses.filter((course) => {
-        const title = course.title?.toLowerCase() || "";
-        const instructor = course.instructor?.toLowerCase() || "";
-        const category = course.category?.toLowerCase() || "";
-        const query = search.toLowerCase();
+    isCoursesPage && search.trim() !== ""
+      ? allCourses.filter((course) => {
+          const title = course.title?.toLowerCase() || "";
+          const instructor = course.instructor?.toLowerCase() || "";
+          const category = course.category?.toLowerCase() || "";
+          const query = search.toLowerCase();
 
-        return (
-          title.includes(query) ||
-          instructor.includes(query) ||
-          category.includes(query)
-        );
-      })
-    : allCourses;
+          return (
+            title.includes(query) ||
+            instructor.includes(query) ||
+            category.includes(query)
+          );
+        })
+      : allCourses;
 
+  useEffect(() => {
+    if (courses) {
+      setLoading(false);
+    }
+  }, [courses]);
+
+  if (loading) {
+    return <Loading />;
+  }
   return (
     <section className="w-full max-w-7xl mx-auto pb-10 px-4 md:px-6 lg:px-0 space-y-10">
       {/* Title */}

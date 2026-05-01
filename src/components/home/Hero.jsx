@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
 
   return (
-    <section className="relative flex items-center justify-center bg-base-100 mt-24 md:mt-32">
+    <section className="relative flex items-center justify-center bg-base-100">
       {/* Background glow */}
       <div className="absolute w-72 h-72 bg-primary/20 blur-3xl rounded-full top-10 left-1/2 -translate-x-1/2"></div>
 
