@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @tailwind utilities;
 @plugin "daisyui";
+@import "@heroui/styles";
 
 .animate-glow {
   animation: glow 2s linear infinite;

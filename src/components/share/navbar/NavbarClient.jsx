@@ -43,7 +43,7 @@ const NavbarClient = () => {
 
         {/* Navbar End */}
         <div className="navbar-end">
-          <Link href="/login">
+          <Link href="/signin">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -52,7 +52,7 @@ const NavbarClient = () => {
             >
               <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow transition-all"></div>
 
-              <span className="relative z-10">Login</span>
+              <span className="relative z-10">Sign In</span>
             </motion.button>
           </Link>
         </div>
