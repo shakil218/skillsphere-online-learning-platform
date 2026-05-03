@@ -1,5 +1,5 @@
 export async function getAllCourseData() {
-  const res = await fetch("https://skillsphere-online-learning-web.vercel.app/data/courseData.json", {
+  const res = await fetch("http://localhost:3000/data/courseData.json", {
     cache: "no-store",
   });
 

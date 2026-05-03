@@ -5,23 +5,23 @@ import { motion } from "framer-motion";
 
 const instructors = [
   {
-    name: "Sarah Johnson",
+    name: "Emily Carter",
     role: "UI/UX Design Expert",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    image: "https://randomuser.me/api/portraits/women/68.jpg",
     students: "12K+ Students",
     rating: "4.9",
   },
   {
     name: "David Kim",
     role: "Full Stack Developer",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: "https://randomuser.me/api/portraits/men/52.jpg",
     students: "18K+ Students",
     rating: "4.8",
   },
   {
-    name: "Emily Carter",
+    name: "Sarah Johnson",
     role: "Digital Marketing Specialist",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
     students: "10K+ Students",
     rating: "4.7",
   },

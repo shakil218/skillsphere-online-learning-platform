@@ -48,6 +48,7 @@ const CoursesClient = ({ courses = [] }) => {
   if (loading) {
     return <Loading />;
   }
+
   return (
     <section className="w-full max-w-7xl mx-auto pb-10 px-4 md:px-6 lg:px-0 space-y-10">
       {/* Title */}

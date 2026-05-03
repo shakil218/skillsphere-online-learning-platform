@@ -1,16 +1,15 @@
 const Loading = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 py-10">
-      {Array.from({ length: 8 }).map((_, i) => (
-        <div
-          key={i}
-          className="animate-pulse bg-gray-100 rounded-xl p-4 space-y-4"
-        >
-          <div className="h-40 bg-gray-200 rounded-lg" />
-          <div className="h-4 bg-gray-200 rounded w-3/4" />
-          <div className="h-3 bg-gray-200 rounded w-1/2" />
-        </div>
-      ))}
+    <div className="min-h-[calc(100vh-301.4px)] flex flex-col justify-center items-center gap-4">
+      <div className="flex w-1/3 flex-col gap-4">
+        <div className="skeleton h-32 w-full"></div>
+        <div className="skeleton h-4 w-28"></div>
+        <div className="skeleton h-4 w-full"></div>
+        <div className="skeleton h-4 w-full"></div>
+      </div>
+      <p className="text-gray-500 text-sm md:text-base">
+        Loading, please wait...
+      </p>
     </div>
   );
 };
