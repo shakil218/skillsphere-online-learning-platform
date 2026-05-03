@@ -1,14 +1,12 @@
 const Loading = () => {
   return (
-    <div className="min-h-[calc(100vh-301.4px)] flex flex-col justify-center items-center gap-4">
-      <div className="flex w-1/3 flex-col gap-4">
-        <div className="skeleton h-32 w-full"></div>
-        <div className="skeleton h-4 w-28"></div>
-        <div className="skeleton h-4 w-full"></div>
-        <div className="skeleton h-4 w-full"></div>
-      </div>
+    <div className="min-h-[60vh] flex flex-col items-center justify-center gap-4">
+      {/* Spinner */}
+      <div className="w-12 h-12 border-4 border-gray-200 border-t-purple-600 rounded-full animate-spin" />
+
+      {/* Text */}
       <p className="text-gray-500 text-sm md:text-base">
-        Loading, please wait...
+        Courses Loading, please wait...
       </p>
     </div>
   );

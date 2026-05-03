@@ -8,6 +8,7 @@ import LabWorks from "@/components/home/LabWorks";
 import LearnSection from "@/components/home/LearnSection";
 import LevelsSection from "@/components/home/LevelsSection";
 import Membership from "@/components/home/MemberShip";
+import NewReleaseCourse from "@/components/home/NextReleaseCourse";
 import PracticeSection from "@/components/home/PracticeSection";
 import TopInstructors from "@/components/home/TopInstructors";
 import TrustedCompanies from "@/components/home/TrustedCompanies";
@@ -21,6 +22,7 @@ export default function Home() {
       <TrustedCompanies />
       <Courses />
       <TopInstructors />
+      <NewReleaseCourse />
       <LearnSection />
       <HowItWorks />
       <WhatYouGetSection />

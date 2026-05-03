@@ -36,7 +36,7 @@ const instructors = [
 
 export default function TopInstructors() {
   return (
-    <section className="px-6 bg-gray-50">
+    <section className="px-4 bg-gray-50">
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900">

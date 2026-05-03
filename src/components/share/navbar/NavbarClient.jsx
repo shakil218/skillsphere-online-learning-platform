@@ -3,8 +3,14 @@
 import Link from "next/link";
 import NavLinks from "./NavLinks";
 import { motion } from "framer-motion";
+import { authClient } from "@/lib/auth-client";
+import userFallbackImg from "@/assets/profile.png";
+import Image from "next/image";
 
 const NavbarClient = () => {
+  const { data: session, isPending } = authClient.useSession();
+  const user = session?.user;
+
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-base-100/75 backdrop-blur-md text-white shadow-md px-4">
       <div className="navbar max-w-7xl mx-auto">
@@ -43,18 +49,53 @@ const NavbarClient = () => {
 
         {/* Navbar End */}
         <div className="navbar-end">
-          <Link href="/signin">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="relative btn bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)] text-white rounded-lg px-4 font-bold overflow-hidden shadow-xl"
-              suppressHydrationWarning
-            >
-              <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow transition-all"></div>
+          {isPending ? (
+            <div className="navbar-end gap-3 text-gray-600">
+              <span className="font-semibold">Loading</span>
+              <span className="loading loading-dots loading-sm"></span>
+            </div>
+          ) : user ? (
+            <div className="navbar-end gap-2 md:gap-5 items-center">
+              <div className="relative inline-flex p-0.5 group shrink-0">
+                <div className="relative rounded-full overflow-hidden bg-white p-0.5">
+                  <Image
+                    src={user?.image || userFallbackImg}
+                    alt="User"
+                    width={40}
+                    height={40}
+                    className="rounded-full object-cover w-8 h-8 md:w-10 md:h-10"
+                  />
+                </div>
+              </div>
 
-              <span className="relative z-10">Sign In</span>
-            </motion.button>
-          </Link>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={async () => await authClient.signOut()}
+                className="relative btn bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)] text-white rounded-lg px-4 font-bold overflow-hidden shadow-xl"
+                suppressHydrationWarning
+              >
+                <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow transition-all"></div>
+
+                <span className="relative z-10">Sign Out</span>
+              </motion.button>
+            </div>
+          ) : (
+            <div className="navbar-end gap-5">
+              <Link href="/signin">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="relative btn bg-[linear-gradient(135deg,#4b5964,#2f3a42,#0f1113)] text-white rounded-lg px-4 font-bold overflow-hidden shadow-xl"
+                  suppressHydrationWarning
+                >
+                  <div className="absolute inset-0 w-[200%] h-[200%] bg-linear-to-br from-white/60 via-white/30 to-transparent -translate-x-full -translate-y-full animate-glow transition-all"></div>
+
+                  <span className="relative z-10">Sign In</span>
+                </motion.button>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>

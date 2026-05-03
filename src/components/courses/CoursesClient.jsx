@@ -6,7 +6,7 @@ import CourseCard from "./CourseCard";
 import EmptyCard from "./EmptyCard";
 import Loading from "../share/Loading";
 
-const CoursesClient = ({ courses = [] }) => {
+const CoursesClient = ({ courses }) => {
   const pathname = usePathname();
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
@@ -50,11 +50,11 @@ const CoursesClient = ({ courses = [] }) => {
   }
 
   return (
-    <section className="w-full max-w-7xl mx-auto pb-10 px-4 md:px-6 lg:px-0 space-y-10">
+    <section className="w-full max-w-7xl mx-auto pb-10 px-4 lg:px-0 space-y-10">
       {/* Title */}
       <div className="text-center space-y-4">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
-          {isHome ? "Top Rated Courses" : "All Courses"}
+          {isHome ? "Top Rated Course" : "All Courses"}
         </h2>
 
         <p className="text-gray-500 dark:text-gray-400">

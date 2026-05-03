@@ -41,7 +41,7 @@ const SignInForm = () => {
         throw new Error(error.message || "Signup failed");
       }
 
-      toast.success("User sign in successfully 🚀");
+      toast.success("User sign in successfully 👋");
       router.push("/");
     } catch (err) {
       toast.error(err.message);
@@ -56,7 +56,7 @@ const SignInForm = () => {
         <h2 className="text-3xl font-bold text-center mb-2">👋 Welcome Back</h2>
 
         <p className="text-center mb-6 text-sm">
-          Login to continue your journey 🚀
+          Sign in to continue your journey 🚀
         </p>
         <Form onSubmit={onSubmit}>
           <Fieldset className="w-full">

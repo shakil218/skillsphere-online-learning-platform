@@ -1,0 +1,74 @@
+[
+  {
+    "id": 13,
+    "title": "Next.js 16 Crash Course",
+    "instructor": "Alex Johnson",
+    "instructor_img": "https://randomuser.me/api/portraits/men/12.jpg",
+    "duration": "14 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Build modern full-stack apps with Next.js 14 and App Router.",
+    "image": "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Development",
+    "outcomes": [
+      "Build full-stack Next.js apps",
+      "Understand App Router deeply",
+      "Work with server components",
+      "Deploy production-ready apps"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "AI Tools for Developers",
+    "instructor": "Lisa Wong",
+    "instructor_img": "https://randomuser.me/api/portraits/women/12.jpg",
+    "duration": "11 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn how to use AI tools to boost productivity in development.",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+    "category": "AI & Tech",
+    "outcomes": [
+      "Use AI tools in real projects",
+      "Automate development workflows",
+      "Improve coding efficiency",
+      "Explore modern AI ecosystems"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Cybersecurity Essentials",
+    "instructor": "Mark Spencer",
+    "instructor_img": "https://randomuser.me/api/portraits/men/28.jpg",
+    "duration": "13 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Protect systems and understand modern cybersecurity threats.",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87",
+    "category": "Security",
+    "outcomes": [
+      "Understand cybersecurity basics",
+      "Identify common threats",
+      "Secure applications",
+      "Apply best security practices"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Advanced Python Programming & Problem Solving",
+    "instructor": "Dr. Sarah Mitchell",
+    "instructor_img": "https://randomuser.me/api/portraits/women/65.jpg",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Master advanced Python concepts including OOP, decorators, generators, async programming, and real-world problem solving.",
+    "image": "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Programming",
+    "outcomes": [
+      "Master advanced Python OOP concepts",
+      "Work with decorators and generators",
+      "Understand async programming",
+      "Build real-world Python applications"
+    ]
+  }
+]

@@ -43,7 +43,7 @@ const SignUpForm = () => {
       }
 
       toast.success("Account created successfully 🚀");
-      router.push("/");
+      router.push("/signin");
     } catch (err) {
       toast.error(err.message);
     } finally {

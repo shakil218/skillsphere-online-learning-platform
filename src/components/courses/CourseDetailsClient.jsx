@@ -81,7 +81,7 @@ const CourseDetailsClient = ({ course }) => {
 
           <div>
             <h2 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
-              What you'll learn
+              What you&apos;ll learn
             </h2>
 
             <ul className="space-y-2 text-gray-600 dark:text-gray-400">
