@@ -5,13 +5,16 @@ import Link from "next/link";
 import { authClient } from "@/lib/auth-client";
 import { motion } from "framer-motion";
 import Loading from "@/app/loading";
+import { useRouter } from "next/navigation";
 
 const ProfileClient = () => {
   const { data: session, isPending } = authClient.useSession();
   const user = session?.user;
 
+  const router = useRouter();
+
   if (isPending) return <Loading></Loading>;
-  if (!user) return <p className="p-10">Please login</p>;
+  if (!user) return router.push("/signin");
 
   return (
     <div className="flex items-center justify-center">
