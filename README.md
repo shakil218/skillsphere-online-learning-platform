@@ -1,3 +1,6 @@
+<img width="1883" height="869" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/a49fd799-61e7-47c2-bcbb-bed89e9b491d" />
+
+
 # 🚀 SkillSphere - Online Learning Platform
 
 SkillSphere is a modern online learning platform where users can explore courses, view details, and manage their profiles. It is built with **Next.js App Router**, **Better Auth**, and **MongoDB**.
