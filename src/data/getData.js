@@ -1,5 +1,5 @@
 export const getAllCourseData = async () => {
-  const res = await fetch(process.env.BETTER_AUTH_URL, {
+  const res = await fetch(process.env.BETTER_AUTH_URL/data/courseData.json, {
     cache: "no-store",
   });
 
@@ -11,7 +11,7 @@ export const getAllCourseData = async () => {
 };
 
 export const getNextCourseData = async () => {
-  const res = await fetch(process.env.BETTER_AUTH_URL, {
+  const res = await fetch(process.env.BETTER_AUTH_URL/data/newCourseData.json, {
     cache: "no-store",
   });
 
