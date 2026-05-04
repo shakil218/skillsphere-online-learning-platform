@@ -20,7 +20,7 @@ const Gallery = () => {
   return (
     <section className="overflow-hidden">
       <div className="relative max-w-7xl mx-auto rounded-lg overflow-hidden">
-         {/* RIGHT BADGE */}
+         {/* Right Badge */}
         <div className="absolute top-4 right-4 z-10">
           <span className="px-4 py-2 text-sm bg-white/80 backdrop-blur-md rounded-full shadow-md">
             Cancel anytime
