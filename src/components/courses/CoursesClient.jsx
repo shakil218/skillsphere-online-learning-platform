@@ -22,7 +22,7 @@ const CoursesClient = ({ courses }) => {
   // Home shows only top 4
   const allCourses = isHome ? topRatedCourse.slice(0, 4) : courses;
 
-  // Safe search filter
+  // Search filter
   const filteredCourses =
     isCoursesPage && search.trim() !== ""
       ? allCourses.filter((course) => {
