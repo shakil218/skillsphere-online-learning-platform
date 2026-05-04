@@ -7,6 +7,10 @@ SkillSphere is a modern online learning platform where users can explore courses
 
 ---
 
+[SkillSphere Live Link](https://skillsphere-online-learning-web.vercel.app)
+
+---
+
 ## 🌐 Features
 
 * 📚 Browse all courses
@@ -133,9 +137,3 @@ npm start
 ## 👨‍💻 Author
 
 **Md Shakil Islam**
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
