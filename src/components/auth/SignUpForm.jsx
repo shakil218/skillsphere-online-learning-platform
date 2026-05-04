@@ -3,7 +3,6 @@ import { authClient } from "@/lib/auth-client";
 import { Eye, EyeSlash } from "@gravity-ui/icons";
 import {
   Button,
-  Description,
   FieldError,
   Fieldset,
   Form,
@@ -36,7 +35,6 @@ const SignUpForm = () => {
         ...userInfo,
         callbackURL: "/",
       });
-      console.log(data, error);
 
       if (error) {
         throw new Error(error.message || "Signup failed");
@@ -148,9 +146,6 @@ const SignUpForm = () => {
                 </InputGroup>
                 <FieldError />
               </TextField>
-              {/* <Description>
-                  Must be at least 8 characters with 1 uppercase and 1 number
-                </Description> */}
             </Fieldset.Group>
             <Fieldset.Actions>
               <Button

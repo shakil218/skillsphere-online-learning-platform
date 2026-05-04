@@ -3,7 +3,6 @@ import { authClient } from "@/lib/auth-client";
 import { Eye, EyeSlash } from "@gravity-ui/icons";
 import {
   Button,
-  Description,
   FieldError,
   Fieldset,
   Form,
@@ -121,9 +120,6 @@ const SignInForm = () => {
                 </InputGroup>
                 <FieldError />
               </TextField>
-              {/* <Description>
-                  Must be at least 8 characters with 1 uppercase and 1 number
-                </Description> */}
             </Fieldset.Group>
             <Fieldset.Actions>
               <Button
