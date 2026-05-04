@@ -1,6 +1,4 @@
 "use client";
-import { authClient } from "@/lib/auth-client";
-import { Eye, EyeSlash } from "@gravity-ui/icons";
 import {
   Button,
   FieldError,
@@ -12,6 +10,8 @@ import {
   Surface,
   TextField,
 } from "@heroui/react";
+import { authClient } from "@/lib/auth-client";
+import { Eye, EyeSlash } from "@gravity-ui/icons";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -47,6 +47,12 @@ const SignInForm = () => {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleGoogleSignIn = async () => {
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
   };
 
   return (
@@ -136,7 +142,7 @@ const SignInForm = () => {
           </Fieldset>
         </Form>
         <div className="pt-5">
-          <Button className="w-full btn rounded-lg" variant="tertiary">
+          <Button onClick={handleGoogleSignIn} className="w-full btn rounded-lg" variant="tertiary">
             <Icon icon="devicon:google" />
             Sign in with Google
           </Button>
