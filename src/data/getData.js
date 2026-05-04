@@ -1,6 +1,6 @@
 export const getAllCourseData = async () => {
   const res = await fetch(
-    `https://skillsphere-online-learning-web.vercel.app/courseData.json`,
+    `${process.env.BETTER_AUTH_URL}/courseData.json`,
     {
       cache: "no-store",
     },
@@ -15,7 +15,7 @@ export const getAllCourseData = async () => {
 
 export const getNextCourseData = async () => {
   const res = await fetch(
-    `https://skillsphere-online-learning-web.vercel.app/newCourseData.json`,
+    `${process.env.BETTER_AUTH_URL}/newCourseData.json`,
     {
       cache: "no-store",
     },
